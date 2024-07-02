@@ -52,3 +52,4 @@
 ## Concepts:
 
 - Arreglo = Lista (Array)
+- Getter & Setter = The getters indicate that we can take some value of an attribute and the setters we can save some value on an attribute. They are important at the moment of creating an object class since the value that the attributes can take depends on them or to modify some attribute without needing to modify some other attribute.
