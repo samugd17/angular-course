@@ -49,7 +49,22 @@
     console.log(amIArray.join('-'));
     ```
 
+- `() and [] in HTML code`
+
+    - `()` Used for events. Example: (click), (ngSubmit)...
+    - `[]` Used to assign attributes or send info from parent to child
+ 
+
 ## Concepts:
 
 - Arreglo = Lista (Array)
-- Getter & Setter = The getters indicate that we can take some value of an attribute and the setters we can save some value on an attribute. They are important at the moment of creating an object class since the value that the attributes can take depends on them or to modify some attribute without needing to modify some other attribute.
+
+- Getter & Setter: The getters indicate that we can take some value of an attribute and the setters we can save some value on an attribute. They are important at the moment of creating an object class since the value that the attributes can take depends on them or to modify some attribute without needing to modify some other attribute.
+
+- One way data binding vs Two way data binding: 
+
+    - One-way data binding is the idea of linking data only from the component class to the view or vice versa. This will be very useful when we need to display static information on the screen.
+
+    - Two-way data binding allows data to flow in both directions: from the class to the view and from the view to the class.
+
+        The most typical scenario for this case occurs when we use the NgModel directive when creating forms in Angular using @angular/forms, where a user is expected to enter data.
