@@ -15,7 +15,7 @@ get characters(): Character[] {
   return [...this.dbzService.characters];
 }
 
-onDeleteCharcater(id:string): void {
+onDeleteCharacter(id:string): void {
   this.dbzService.deleteCharacterById(id);
 }
 
